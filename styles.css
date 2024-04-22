@@ -1,0 +1,80 @@
+/* Fonts and allat */
+p {
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+}
+
+/* Everything else */
+body {
+    background-color:hsl(47, 88%, 63%);
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 2fr 1fr 2fr 2fr;
+    border: 2px solid hsl(0, 0%, 0%);
+    border-radius: 16px;
+    height: 540px;
+    width: 385px;
+    margin: 10rem auto;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 7px 7px hsl(0, 0%, 0%); /* on hover: 20px */
+    pointer-events: none;
+}
+
+.design {
+    margin: 20px auto 0 auto;
+    border-radius: 16px;
+}
+
+p {
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bg {
+    background-color: hsl(47, 88%, 63%);
+    margin-left: 25px;
+    margin-right: auto;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.hoverable {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 65px;
+    font-weight: 800;
+    pointer-events: auto;
+}
+
+.hoverable:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.grid:hover {
+    box-shadow: 20px 20px hsl(0, 0%, 0%);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-bottom: 5px;
+}
+
+.icon {
+    margin: auto 0;
+    margin-left: 25px;
+    max-width: 42px;
+}
+
+.greg {
+    margin: auto 0;
+    margin-left: 10px;
+}
